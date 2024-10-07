@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+        .parent{
+
+          height: 800px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+
+        /*  flex-wrap: wrap;
+          align-content: flex-start;*/
+          background-color: black;
+        }
+        .cont{
+          
+          display: flex;
+          justify-content: space-evenly;
+          background-color: black;
+          font-size: larger;
+          color: white;
+          align-items: center;
+          flex-direction: row;
+        }
+
+          .Box{
+            display: flex;
+            flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid white;
+        height: 400px;
+        width: 300px;
+          }
+
+          #b1{
+            height: 100px;
+            width: 100px;
+            border: 2px solid white;
+
+          }
+          #b3{
+            color: white;
+            text-align: center;
+          }
+          #b2{
+            color:red
+          }
+
+          #b4{
+            color: aqua;
+          }
+          </style>
+
+  
+</head>
+
+<body>
+  <div class="cont">
+    <div class="cont" id="cont-1">Products</div>
+    <div class="cont" id="cont-2">Discounts</div>
+    <div class="cont" id="cont-3">Our Partners</div>
+    <div class="cont" id="cont-4">About US</div>
+  </div>
+    <div class="parent">
+        <div class="Box" id="Box-1">
+        <div class="b" id="b1"></div>
+        <div class="b" id="b2">Basic</div>
+        <div class="b" id="b3">a subtle but elgant finish for low-touch and delicate surfaces</div><br>
+        <div classs="b" id="b4">Explore</div>   
+        </div>
+        <div class="Box" id="Box-2">
+          <div class="b" id="b1"></div>
+            <div class="b" id="b2">Semi Gloss</div>
+            <div class="b" id="b3">our signature finish for high wear parts details and surfaces</div><br>
+            <div class="b" id="b4">Explore</div>
+        </div>
+        <div class="Box" id="Box-3">
+          <div class="b" id="b1"></div>
+            <div class="b" id="b2">High-Gloss</div>
+            <div class="b" id="b3">an eye stopping shine best for metal and other smooth surfaces</div><br>
+            <div class="b" id="b4" >Explore</div>
+        </div>
+       
+    </div>
+    
+    
+</body>
+</html>
